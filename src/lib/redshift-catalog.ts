@@ -73,7 +73,10 @@ export async function loadCatalogAssets(): Promise<CatalogLoadResult> {
 
   const workgroupName = process.env.REDSHIFT_WORKGROUP_NAME ?? "production-workgroup";
   const database = process.env.REDSHIFT_DATABASE_NAME;
-  const schemaNames = (process.env.REDSHIFT_SCHEMA_NAMES ?? "reporting,companies")
+  const schemaNames = (
+    process.env.REDSHIFT_SCHEMA_NAMES ??
+    "reporting,companies,supplier_offers,ontology,metrics_layer,references"
+  )
     .split(",")
     .map((schema) => schema.trim())
     .filter(Boolean);
@@ -234,6 +237,10 @@ function inferDomain(schemaName: string) {
 
   if (normalized === "companies") return "Supplier Facts";
   if (normalized === "reporting") return "Reporting";
+  if (normalized === "supplier_offers") return "Supplier Offers";
+  if (normalized === "ontology") return "Ontology";
+  if (normalized === "metrics_layer") return "Metrics Layer";
+  if (normalized === "references") return "References";
   if (normalized.includes("finance") || normalized.includes("revenue")) return "Finance";
   if (normalized.includes("sales") || normalized.includes("crm")) return "Sales";
   if (normalized.includes("customer") || normalized.includes("user")) return "Customer";

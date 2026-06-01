@@ -19,7 +19,14 @@ from pg_class c
 join pg_namespace n on n.oid = c.relnamespace
 join pg_attribute a on a.attrelid = c.oid
 join pg_type t on t.oid = a.atttypid
-where n.nspname in ('reporting', 'companies')
+where n.nspname in (
+  'reporting',
+  'companies',
+  'supplier_offers',
+  'ontology',
+  'metrics_layer',
+  'references'
+)
   and c.relkind in ('r', 'v', 'm')
   and a.attnum > 0
   and not a.attisdropped

@@ -15,7 +15,7 @@ Open [http://localhost:3000](http://localhost:3000).
 - Searchable catalog browser built with Next.js, TypeScript, and Tailwind CSS.
 - Dataset detail panel with owners, refresh cadence, freshness, consumers, and column-level dictionary.
 - Public catalog snapshot in `src/data/public-catalog.json` so the deployed app does not need AWS credentials.
-- Snapshot export script for `prd.reporting` and `prd.companies`.
+- Snapshot export script for `prd.reporting`, `prd.companies`, `prd.supplier_offers`, `prd.ontology`, `prd.metrics_layer`, and `prd.references`.
 - Redshift DDL in `redshift/catalog_schema.sql` for storing curated catalog metadata.
 - Redshift metadata extraction SQL in `redshift/metadata_extract.sql` using `pg_catalog`.
 
@@ -69,11 +69,11 @@ To export metadata, `.env.local` or the `export:catalog` script should use:
 REDSHIFT_ENABLE_LIVE_CATALOG=true
 REDSHIFT_WORKGROUP_NAME=production-workgroup
 REDSHIFT_DATABASE_NAME=prd
-REDSHIFT_SCHEMA_NAMES=reporting,companies
+REDSHIFT_SCHEMA_NAMES=reporting,companies,supplier_offers,ontology,metrics_layer,references
 AWS_REGION=eu-central-1
 ```
 
-The export reads production metadata from the `reporting` and `companies` schemas using Redshift system catalog tables. In this environment, those schemas are visible through `pg_catalog` even though `svv_all_tables` and Data API `list-tables` return no rows.
+The export reads production metadata from the `reporting`, `companies`, `supplier_offers`, `ontology`, `metrics_layer`, and `references` schemas using Redshift system catalog tables. In this environment, those schemas are visible through `pg_catalog` even though `svv_all_tables` and Data API `list-tables` return no rows.
 
 ## Recommended Next Steps
 

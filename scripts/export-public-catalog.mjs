@@ -9,7 +9,10 @@ import { dirname, resolve } from "node:path";
 
 const workgroupName = process.env.REDSHIFT_WORKGROUP_NAME ?? "production-workgroup";
 const database = process.env.REDSHIFT_DATABASE_NAME ?? "prd";
-const schemaNames = (process.env.REDSHIFT_SCHEMA_NAMES ?? "reporting,companies")
+const schemaNames = (
+  process.env.REDSHIFT_SCHEMA_NAMES ??
+  "reporting,companies,supplier_offers,ontology,metrics_layer,references"
+)
   .split(",")
   .map((schema) => schema.trim())
   .filter(Boolean);
@@ -179,6 +182,10 @@ function inferDomain(schemaName) {
 
   if (normalized === "companies") return "Supplier Facts";
   if (normalized === "reporting") return "Reporting";
+  if (normalized === "supplier_offers") return "Supplier Offers";
+  if (normalized === "ontology") return "Ontology";
+  if (normalized === "metrics_layer") return "Metrics Layer";
+  if (normalized === "references") return "References";
   return "Unassigned";
 }
 
