@@ -155,7 +155,6 @@ export const summaryStats = {
   assets: catalogAssets.length,
   columns: catalogAssets.reduce((total, asset) => total + asset.columns.length, 0),
   certified: catalogAssets.filter((asset) => asset.certification === "Certified").length,
-  owners: new Set(catalogAssets.map((asset) => asset.owner)).size,
 };
 
 export function getCatalogSummary(assets: CatalogAsset[]) {
@@ -163,7 +162,6 @@ export function getCatalogSummary(assets: CatalogAsset[]) {
     assets: assets.length,
     columns: assets.reduce((total, asset) => total + asset.columns.length, 0),
     certified: assets.filter((asset) => asset.certification === "Certified").length,
-    owners: new Set(assets.map((asset) => asset.owner)).size,
   };
 }
 

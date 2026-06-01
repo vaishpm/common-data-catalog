@@ -20,20 +20,19 @@ export default function Home() {
                 Common Data Catalog
               </h1>
               <p className="mt-4 text-base leading-7 text-slate-300 sm:text-lg">
-                Browse trusted datasets, understand column meaning, find owners, and
-                see freshness before using a table in analysis or reporting.
+                Browse trusted datasets, understand column meaning, and see freshness
+                before using a table in analysis or reporting.
               </p>
               <p className="mt-4 rounded-2xl bg-white/10 px-4 py-3 text-sm text-slate-200 ring-1 ring-white/10">
                 Source: <span className="font-semibold">{source === "snapshot" ? "Public metadata snapshot" : "Seed catalog"}</span>.{" "}
                 {message}
               </p>
             </div>
-            <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 lg:min-w-[520px]">
+            <div className="grid grid-cols-3 gap-3 lg:min-w-[420px]">
               {[
                 ["Assets", summaryStats.assets],
                 ["Columns", summaryStats.columns],
                 ["Certified", summaryStats.certified],
-                ["Owners", summaryStats.owners],
               ].map(([label, value]) => (
                 <div key={label} className="rounded-2xl bg-white/10 p-4 ring-1 ring-white/10">
                   <p className="text-2xl font-semibold">{value}</p>
@@ -50,7 +49,7 @@ export default function Home() {
           {[
             {
               title: "Business-first definitions",
-              body: "Each asset starts with a plain-English description, domain, ownership, and consumer context.",
+              body: "Each asset starts with a plain-English description, domain, and consumer context.",
             },
             {
               title: "Trust signals",

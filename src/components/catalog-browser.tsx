@@ -30,8 +30,6 @@ export function CatalogBrowser({ assets, domains }: CatalogBrowserProps) {
         asset.schema,
         asset.database,
         asset.description,
-        asset.owner,
-        asset.technicalOwner,
         asset.tags.join(" "),
         asset.columns.map((column) => `${column.name} ${column.description}`).join(" "),
       ]
@@ -64,7 +62,7 @@ export function CatalogBrowser({ assets, domains }: CatalogBrowserProps) {
             id="catalog-search"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
-            placeholder="Search tables, columns, owners, tags..."
+            placeholder="Search tables, columns, tags..."
             className="min-h-11 flex-1 rounded-2xl border border-slate-200 px-4 text-sm outline-none transition focus:border-slate-400 focus:ring-4 focus:ring-slate-100"
           />
           <label className="sr-only" htmlFor="domain-filter">
@@ -169,8 +167,6 @@ export function CatalogBrowser({ assets, domains }: CatalogBrowserProps) {
 
           <dl className="mt-6 grid gap-4 sm:grid-cols-2">
             {[
-              ["Business owner", selectedAsset.owner],
-              ["Technical owner", selectedAsset.technicalOwner],
               ["Refresh cadence", selectedAsset.refreshCadence],
               ["Freshness", selectedAsset.freshness],
             ].map(([label, value]) => (
