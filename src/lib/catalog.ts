@@ -1,5 +1,3 @@
-export type CertificationStatus = "Certified" | "Candidate" | "Needs review" | "Deprecated";
-
 export type CatalogColumn = {
   name: string;
   type: string;
@@ -18,9 +16,6 @@ export type CatalogAsset = {
   description: string;
   owner: string;
   technicalOwner: string;
-  refreshCadence: string;
-  freshness: string;
-  certification: CertificationStatus;
   tags: string[];
   consumers: string[];
   columns: CatalogColumn[];
@@ -38,9 +33,6 @@ export const catalogAssets: CatalogAsset[] = [
       "One row per active customer account with lifecycle, market, and account ownership attributes.",
     owner: "Customer Analytics",
     technicalOwner: "Data Platform",
-    refreshCadence: "Daily at 06:00",
-    freshness: "Fresh today",
-    certification: "Certified",
     tags: ["gold", "recommended", "pii-reviewed"],
     consumers: ["Customer 360", "Revenue dashboard", "Account health scoring"],
     columns: [
@@ -78,9 +70,6 @@ export const catalogAssets: CatalogAsset[] = [
       "Recognized revenue facts by customer, product, invoice period, and accounting date.",
     owner: "Finance Analytics",
     technicalOwner: "Analytics Engineering",
-    refreshCadence: "Daily at 07:00",
-    freshness: "Fresh today",
-    certification: "Certified",
     tags: ["gold", "finance-approved"],
     consumers: ["ARR reporting", "Monthly close", "Board metrics"],
     columns: [
@@ -118,9 +107,6 @@ export const catalogAssets: CatalogAsset[] = [
       "Raw opportunity records synced from Salesforce. Use curated marts for most reporting.",
     owner: "Sales Operations",
     technicalOwner: "Data Ingestion",
-    refreshCadence: "Hourly",
-    freshness: "Updated 42 minutes ago",
-    certification: "Candidate",
     tags: ["raw", "source-system"],
     consumers: ["Pipeline QA", "Sales ops investigations"],
     columns: [
@@ -154,14 +140,12 @@ export const domains = Array.from(new Set(catalogAssets.map((asset) => asset.dom
 export const summaryStats = {
   assets: catalogAssets.length,
   columns: catalogAssets.reduce((total, asset) => total + asset.columns.length, 0),
-  certified: catalogAssets.filter((asset) => asset.certification === "Certified").length,
 };
 
 export function getCatalogSummary(assets: CatalogAsset[]) {
   return {
     assets: assets.length,
     columns: assets.reduce((total, asset) => total + asset.columns.length, 0),
-    certified: assets.filter((asset) => asset.certification === "Certified").length,
   };
 }
 

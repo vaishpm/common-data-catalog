@@ -8,13 +8,6 @@ type CatalogBrowserProps = {
   domains: string[];
 };
 
-const statusStyles: Record<CatalogAsset["certification"], string> = {
-  Certified: "bg-emerald-50 text-emerald-700 ring-emerald-200",
-  Candidate: "bg-blue-50 text-blue-700 ring-blue-200",
-  "Needs review": "bg-amber-50 text-amber-700 ring-amber-200",
-  Deprecated: "bg-rose-50 text-rose-700 ring-rose-200",
-};
-
 export function CatalogBrowser({ assets, domains }: CatalogBrowserProps) {
   const [query, setQuery] = useState("");
   const [domain, setDomain] = useState("All");
@@ -156,26 +149,7 @@ export function CatalogBrowser({ assets, domains }: CatalogBrowserProps) {
                 {selectedAsset.description}
               </p>
             </div>
-            <span
-              className={`w-fit rounded-full px-3 py-1.5 text-sm font-medium ring-1 ${
-                statusStyles[selectedAsset.certification]
-              }`}
-            >
-              {selectedAsset.certification}
-            </span>
           </div>
-
-          <dl className="mt-6 grid gap-4 sm:grid-cols-2">
-            {[
-              ["Refresh cadence", selectedAsset.refreshCadence],
-              ["Freshness", selectedAsset.freshness],
-            ].map(([label, value]) => (
-              <div key={label} className="rounded-2xl bg-slate-50 p-4">
-                <dt className="text-xs uppercase tracking-[0.18em] text-slate-500">{label}</dt>
-                <dd className="mt-2 font-medium text-slate-900">{value}</dd>
-              </div>
-            ))}
-          </dl>
 
           <div className="mt-8">
             <h3 className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-500">

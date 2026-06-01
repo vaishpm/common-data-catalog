@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T15:36:38.975Z",
+  "generatedAt": "2026-06-01T16:13:56.520Z",
   "source": {
     "workgroupName": "production-workgroup",
     "database": "prd",
@@ -19,9 +19,6 @@
       "description": "Communication table containing supplier contact information such as phone numbers and email addresses.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "companies",
         "redshift",
@@ -91,9 +88,6 @@
       "description": "Company table containing supplier information, platform presence, address, certifications, and business attributes.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "companies",
         "redshift",
@@ -344,9 +338,6 @@
       "description": "Stores change history of supplier facts companies data.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "companies",
         "redshift",
@@ -409,9 +400,6 @@
       "description": "Contact information table containing detailed communication data for individual contacts, including phone numbers and email addresses.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "companies",
         "redshift",
@@ -481,9 +469,6 @@
       "description": "Contacts table containing information about individual contact persons associated with supplier companies.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "companies",
         "redshift",
@@ -560,9 +545,6 @@
       "description": "Description table containing multilingual company descriptions linked to supplier records.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "companies",
         "redshift",
@@ -619,9 +601,6 @@
       "description": "This table contains supplier-level facts including roles and category info",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "companies",
         "redshift",
@@ -687,9 +666,6 @@
       "description": "Media table containing images, documents, and videos associated with supplier companies.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "companies",
         "redshift",
@@ -808,9 +784,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "companies",
         "redshift",
@@ -920,9 +893,6 @@
       "description": "Websites table containing supplier website information including URLs, titles, and source details.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "companies",
         "redshift",
@@ -988,9 +958,6 @@
       "description": "Customer satisfaction tasks enriched with campaign, delivery, and feedback information",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -1337,9 +1304,6 @@
       "description": "Dimension table containing unique ad content values from the sessions data.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -1373,9 +1337,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -1427,9 +1388,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -1474,9 +1432,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -1521,9 +1476,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -1557,9 +1509,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -1593,9 +1542,6 @@
       "description": "Dimension table for browser with surrogate keys.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -1629,9 +1575,6 @@
       "description": "Dimension table for browser versions",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -1665,9 +1608,6 @@
       "description": "Distinct campaigns with surrogate keys from sessions table",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -1703,9 +1643,6 @@
       "description": "Dimension table containing cancel reasons with text and language mapping",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -1746,9 +1683,6 @@
       "description": "Distinct marketing channel names with surrogate keys",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -1784,9 +1718,6 @@
       "description": "Dimension table for unique cities with surrogate keys.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -1820,9 +1751,6 @@
       "description": "Click types from the Internal Tracking",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -1856,9 +1784,6 @@
       "description": "Dimension table that defines the various statuses a company can have within the system (e.g., Active, Inactive, Pending).",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -1892,9 +1817,6 @@
       "description": "Dimension table for concepts_shown.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -1928,9 +1850,6 @@
       "description": "Decline reason dimension from Connect as response to a connect message.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -1964,9 +1883,6 @@
       "description": "Dimension of errors received from the Connect API upon sending campaign  emails. Filled from the  staging.stg_connect_emails_sent\" table.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -2000,9 +1916,6 @@
       "description": "Dimension for the lifecycle state of a connect message. Connect status from the \"stg_pg_tender_suppliers\".",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -2036,9 +1949,6 @@
       "description": "Container ID dimension table with unique keys.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -2072,9 +1982,6 @@
       "description": "Dimension table containing distinct content groups with surrogate keys.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -2108,9 +2015,6 @@
       "description": "Dimension table for tracking the status of customer conversations.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -2144,9 +2048,6 @@
       "description": "Dimension table for distinct conversation user roles extracted from hit data. Incrementally loads only new values based on role.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -2180,9 +2081,6 @@
       "description": "Country dimension from GBQ sessions data",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -2216,9 +2114,6 @@
       "description": "ISO Alpha-2 and Alpha-3 codes used in \"stg_pg_ep_visitors\".",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -2259,9 +2154,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -2306,9 +2198,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -2353,9 +2242,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -2400,9 +2286,6 @@
       "description": "Custom dimension in the Google Analytics web tracking. It shows at what time the A/B test split began by adding the respective A/B test label to all events and pageviews after the session was splitted to a testgroup",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -2436,9 +2319,6 @@
       "description": "Dimension table containing customer order types with text and language mapping",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -2479,9 +2359,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -2640,9 +2517,6 @@
       "description": "Dimension table containing the different types of devices used.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -2678,9 +2552,6 @@
       "description": "Dimension table for device information",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -2714,9 +2585,6 @@
       "description": "Dimension table for device models",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -2750,9 +2618,6 @@
       "description": "Dimension table containing distribution channels with text and language mapping",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -2793,9 +2658,6 @@
       "description": "Domain dimension from Google Search Console used in Sistrix",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -2829,9 +2691,6 @@
       "description": "Dimension table containing unique eventaction values and their surrogate keys.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -2867,9 +2726,6 @@
       "description": "Dimension table containing categories of events",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -2905,9 +2761,6 @@
       "description": "Dimension table for GBQ Evenlabel.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -2941,9 +2794,6 @@
       "description": "Dimension table containing feature shown data from the hits data.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -2977,9 +2827,6 @@
       "description": "Dimension table for tracking sets of filters shown to users.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -3013,9 +2860,6 @@
       "description": "Dimension table containing distinct values of `filters_used` extracted from the `ext_gbq.hits` source.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -3049,9 +2893,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -3145,9 +2986,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -3250,9 +3088,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -3321,9 +3156,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -3421,9 +3253,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -3480,9 +3309,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -3550,9 +3376,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -3738,9 +3561,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -3783,9 +3603,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -3910,9 +3727,6 @@
       "description": "Dimension table containing Google Ads account information.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -3957,9 +3771,6 @@
       "description": "Dimension table for Google Ads ad groups.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -4004,9 +3815,6 @@
       "description": "This model consolidates ad_group_status data from Google Ads.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -4040,9 +3848,6 @@
       "description": "Dimesion Model for Gads ad network type.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -4076,9 +3881,6 @@
       "description": "Dimension table for Google Ads ad types.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -4112,9 +3914,6 @@
       "description": "Dimension table for Google Ads campaigns",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -4159,9 +3958,6 @@
       "description": "Dimension table containing Google Ads campaign channel types.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -4195,9 +3991,6 @@
       "description": "Dimension table for Google Ads campaign statuses.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -4231,9 +4024,6 @@
       "description": "Dimension table containing Google Ads campaign bidding/strategy types.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -4267,9 +4057,6 @@
       "description": "Dimesion Model for Gads click_type",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -4303,9 +4090,6 @@
       "description": "Dimension table for Google Ads device types",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -4339,9 +4123,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -4377,9 +4158,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -4417,9 +4195,6 @@
       "description": "Dimension table for storing unique hostnames used across the system",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -4457,9 +4232,6 @@
       "description": "HubSpot marketing campaigns data.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -4616,9 +4388,6 @@
       "description": "Dimension table for the category",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -4652,9 +4421,6 @@
       "description": "Dimension table for the contact_source",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -4688,9 +4454,6 @@
       "description": "Dimension table for HubSpot drop reasons, representing standardized reasons why leads were dropped.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -4724,9 +4487,6 @@
       "description": "Dimension table for HubSpot marketing emails",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -4849,9 +4609,6 @@
       "description": "Dimension table for the emailtype.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -4889,9 +4646,6 @@
       "description": "Language dimension used in internal tracking. CAUTION: After an attack on the platform mid 2021, the tracking data got heavily messed up, resulting also in bad dimensions, including this one. Usage discouraged.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -4925,9 +4679,6 @@
       "description": "Dimension table containing unique language version values from the hits data.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -4961,9 +4712,6 @@
       "description": "Dimension table of the language a user used to sign up to a leads funnel (e.g. - PYB funnel).",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -4997,9 +4745,6 @@
       "description": "Dimension table of the platform a user signed up for through a leads funnel (e.g. - PYB funnel).",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -5033,9 +4778,6 @@
       "description": "Dimension table of the step of the leads funnel (e.g. - PYB funnel) the user has completed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -5069,9 +4811,6 @@
       "description": "Market dimension coming from SAP's order data",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -5112,9 +4851,6 @@
       "description": "Material usage group dimension coming from the SAP order data",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -5148,9 +4884,6 @@
       "description": "Dimension table containing material IDs and descriptions with language mapping",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -5193,9 +4926,6 @@
       "description": "Dimension table capturing distinct medium values from session data.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -5231,9 +4961,6 @@
       "description": "Dimension table for categorizing onsite search behavior by user-defined categories.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -5267,9 +4994,6 @@
       "description": "Dimension table for Online Search Terms.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -5303,9 +5027,6 @@
       "description": "Dimension table for operating systems",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -5339,9 +5060,6 @@
       "description": "Dimension table for OS versions",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -5375,9 +5093,6 @@
       "description": "Dimension table containing order reasons with text and language mapping",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -5418,9 +5133,6 @@
       "description": "Dimension table containing order types with text and language mapping",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -5461,9 +5173,6 @@
       "description": "Dimension table containing order usage codes with text and language mapping",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -5504,9 +5213,6 @@
       "description": "Dimension table for unique original URLs extracted from hit data. Incrementally adds new values as they appear in the source.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -5540,9 +5246,6 @@
       "description": "Package dimension from the EP platform internal traffic",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -5576,9 +5279,6 @@
       "description": "Dimension table for unique cleaned page URLs.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -5612,9 +5312,6 @@
       "description": "Dimension table for unique, non-null page titles extracted from raw hit data.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -5648,9 +5345,6 @@
       "description": "Used in the internal tracking and associated with Criteo conversions. CAUTION: After an attack on the platform mid 2021, the tracking data got heavily messed up, resulting also in bad dimensions, including this one. Usage discouraged",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -5684,9 +5378,6 @@
       "description": "Sales channel for EP used in the WLW reporting, used to categorize EP customers as paying (\"WLW\") for the EP ranking or getting it for free (\"WEU\")",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -5720,9 +5411,6 @@
       "description": "SAP order data dimension of the sales process",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -5756,9 +5444,6 @@
       "description": "Dimension table for cleaned and deduplicated referrer URLs.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -5792,9 +5477,6 @@
       "description": "Dimension table containing reject reasons with text and language mapping",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -5835,9 +5517,6 @@
       "description": "Dimension table containing the different types of requests made in the system. Each type is uniquely identified and categorized.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -5871,9 +5550,6 @@
       "description": "Dimension table for distinct HTTP response statuses extracted from hit data. Incrementally loads only unseen response status values.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -5907,9 +5583,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -5943,9 +5616,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -5979,9 +5649,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -6015,9 +5682,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -6051,9 +5715,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -6087,9 +5748,6 @@
       "description": "Dimension table containing sales managers with ID, name, and country",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -6134,9 +5792,6 @@
       "description": "Dimension table containing sales organizations with text and language mapping",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -6177,9 +5832,6 @@
       "description": "search_result_space_type dimension table with unique keys.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -6213,9 +5865,6 @@
       "description": "Dimension table representing categories used to classify search terms or queries within the system.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -6249,9 +5898,6 @@
       "description": "Dimension table that assigns surrogate keys to unique session IDs derived from fullvisitorid and visitid.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -6287,9 +5933,6 @@
       "description": "Dimension in the Google Search Console performance data representing the analyzed web area",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -6323,9 +5966,6 @@
       "description": "Dimension table containing distinct traffic source values from sessions data.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -6361,9 +6001,6 @@
       "description": "Dimension table storing unique test groups with surrogate keys.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -6399,9 +6036,6 @@
       "description": "Trafficsource dimension from GBQ sessions data",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -6435,9 +6069,6 @@
       "description": "Dimension table containing vertical identifiers and names.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -6480,9 +6111,6 @@
       "description": "Dimension table for Vertical Slug.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -6516,9 +6144,6 @@
       "description": "Dimension table representing unique virtual page titles used in tracking or analytics events.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -6552,9 +6177,6 @@
       "description": "Distinct visitor IDs with surrogate keys from sessions table",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -6590,9 +6212,6 @@
       "description": "Not used anywhere. Possibly linked to internal tracking",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -6628,9 +6247,6 @@
       "description": "Dimension table for unique WLW user roles extracted from Google Analytics hit data.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -6664,9 +6280,6 @@
       "description": "Dimension table for unique WLW search branches with surrogate keys.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -6700,9 +6313,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -6754,9 +6364,6 @@
       "description": "Search keyword inventory fact table for the last 6 months, including average monthly unique searches and the number of paid customers listed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -6797,9 +6404,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -6911,9 +6515,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -7032,9 +6633,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -7149,9 +6747,6 @@
       "description": "Joined metrics model combining last_12_months, last_30_days, and online_products_counts",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -7341,9 +6936,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -7558,9 +7150,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -7673,9 +7262,6 @@
       "description": "Monthly customer–supplier health metrics combining requests, responses, engagement, product coverage, and contract tenure at month granularity",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -7834,9 +7420,6 @@
       "description": "This fact table contains all customer contracts (historical + current), enriched with customer lifecycle and customer age. The table merges pre and post-migration orders and calculates lifecycle-based year and absolute customer age.\n",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -7902,9 +7485,6 @@
       "description": "Fact table for processed direct requests, extracted from one_platform data, enriched with reply messages, GA conversions, and company data.\n",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -8287,9 +7867,6 @@
       "description": "GA4 event fact table (one row per event).",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -8496,9 +8073,6 @@
       "description": "GA4 event item fact table (one row per item per event).",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -8651,9 +8225,6 @@
       "description": "Fact table of supplier login activity derived from GBQ pageviews and events, enriched with company matching and customer status.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -8728,9 +8299,6 @@
       "description": "Fact table for GADS campaign metrics aggregated by date, account, campaign, device, channel, and ad network type.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -8836,9 +8404,6 @@
       "description": "Fact table storing Google Ads conversion metrics at the campaign level.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -8897,9 +8462,6 @@
       "description": "Session-level web tracking data enriched with ga4 bounce rate",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -8979,9 +8541,6 @@
       "description": "Fact table containing GBQ event-level data with various surrogate keys for dimensions.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -9918,9 +9477,6 @@
       "description": "Fact table containing granular pageview-level tracking data from Google BigQuery.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -10783,9 +10339,6 @@
       "description": "Fact table of user search keywords with term metrics and session info from GBQ data.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -10872,9 +10425,6 @@
       "description": "Reporting table for the durations of sessions tracked in Google Analytics. The table is built primarily on the web events.\nCaution: Only non-bouncing sessions are considered as well as exclusively interaction events (\"is_interaction\"=True) to determine the start and end of a session. For the sake of reporting, sessions are cut off on EOD.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -10931,9 +10481,6 @@
       "description": "Fact table capturing session-level data from Google BigQuery exports. Includes information about users, devices, campaigns, and test groups.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -11267,9 +10814,6 @@
       "description": "Session-level web tracking data enriched with test group and device information.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -11540,9 +11084,6 @@
       "description": "Refined view of companies from HubSpot with relevant fields",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -11705,9 +11246,6 @@
       "description": "Refined view of contacts from HubSpot with relevant fields.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -11901,9 +11439,6 @@
       "description": "Incremental model for HubSpot email events.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -12029,9 +11564,6 @@
       "description": "Aggregated email performance metrics derived from HubSpot email events.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -12126,9 +11658,6 @@
       "description": "Records of email subscription events from HubSpot.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -12205,9 +11734,6 @@
       "description": "Transformed customer feedback submissions joined with contact and company information extracted from HubSpot.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -12334,9 +11860,6 @@
       "description": "Refined view of tags from HubSpot with relevant fields.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -12466,9 +11989,6 @@
       "description": "A unified view of HubSpot support tickets for tracking performance and operational insights.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -12650,9 +12170,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -12956,9 +12473,6 @@
       "description": "Table showing retention of customers with main order Retention I & Retention II",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -13329,9 +12843,6 @@
       "description": "Reporting table to monitor the pageviews in Google Analytics and internal tracking side by side.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -13381,9 +12892,6 @@
       "description": "Fact table containing order cancellation details",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -13568,9 +13076,6 @@
       "description": "Fact table containing order-level data including customer, company, material, pricing, validity, and platform details.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -13775,9 +13280,6 @@
       "description": "Fact table storing order-level data.\n",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -13925,9 +13427,6 @@
       "description": "Fact table capturing QDR to RFQ mappings with extracted JSON fields",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -14020,9 +13519,6 @@
       "description": "Fact table storing information about recommended suppliers for RFQs.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -14143,9 +13639,6 @@
       "description": "This model consolidates data related to RFQ (Request for Quotation) processes, including supplier recommendations, messages, and responses. It provides a comprehensive view of the interactions between buyers and suppliers, capturing details such as RFQ attributes, supplier responses, and recommendation notifications. This model is essential for analyzing supplier engagement and the effectiveness of RFQ processes.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -14597,9 +14090,6 @@
       "description": "Fact table storing request counts by date, country, city, company, and product",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -14697,9 +14187,6 @@
       "description": "This table consolidates visitor-level first interactions and request conversions into a single table.  It captures the visitor's first landing page, first channel, and the first page where they initiated a request.  Interactions include all visitor actions, conversions specifically refer to request events like direct requests or RFQs.  This table is useful for analyzing which channels and landing pages lead to request conversions and understanding visitor behavior.\n",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -14763,9 +14250,6 @@
       "description": "Fact table capturing all email events for analytics and tracking",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -14887,9 +14371,6 @@
       "description": "This model consolidates various RFQ (Request for Quotation) related data, including matches, requests, and conversations between purchasers and suppliers. It provides a comprehensive view of RFQ interactions, capturing details such as supplier responses, conversation timelines, and the origin of requests. This model is essential for analyzing supplier engagement and the effectiveness of RFQ processes.\n",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -15129,9 +14610,6 @@
       "description": "Granular event-level fact table combining RFQ matching events and QDR (quality direct request) events.  Each row represents either a matching event or a direct request event at supplier-platform-date level. Contains Total Requests + QDR's.\n",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -15224,9 +14702,6 @@
       "description": "This model consolidates and enriches data related to Request for Quotations (RFQs) from various sources, providing a comprehensive view of RFQ activities. It includes details about RFQs, their origins, processing statuses, sender information, and associated conversions. This model is useful for analyzing RFQ trends, verifying RFQ statuses, and understanding the sources and outcomes of RFQs.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -15611,9 +15086,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -15649,9 +15121,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -15699,9 +15168,6 @@
       "description": "Fact table capturing supplier activity metrics across platforms, including RFQs, direct requests, quality metrics, customer interactions, and profile/product updates.\n",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -15824,9 +15290,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -16015,9 +15478,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -16220,9 +15680,6 @@
       "description": "Fact table containing supplier profile information",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -16287,9 +15744,6 @@
       "description": "Fact table containing enriched user profile information",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -16524,9 +15978,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -16689,9 +16140,6 @@
       "description": "Mapping table for supplier industry information across multiple languages and platforms.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -16762,9 +16210,6 @@
       "description": "Contains scores of products by their main characteristics.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -16846,9 +16291,6 @@
       "description": "Contains scores achieved for filling in various product information.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -16942,9 +16384,6 @@
       "description": "Contains the daily historization of the product filling score.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -17001,9 +16440,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -17156,9 +16592,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -17219,9 +16652,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -17273,9 +16703,6 @@
       "description": "Contains sales order data including customer, material, pricing, and  sales performance details. This table is part of the `reporting` schema.\n",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -17594,9 +17021,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -17919,9 +17343,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -18217,9 +17638,6 @@
       "description": "Table storing the status of suppliers listings published on the ep and wlw websites",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
@@ -18354,9 +17772,6 @@
       "description": "Documentation needed.",
       "owner": "Unassigned",
       "technicalOwner": "Data Platform",
-      "refreshCadence": "Unknown",
-      "freshness": "Snapshot metadata",
-      "certification": "Needs review",
       "tags": [
         "reporting",
         "redshift",
